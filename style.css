@@ -30,7 +30,7 @@ body {
 
 .box-rotate-para {
     max-width: 100px;
-    line-height: 150%;
+    line-height: 120%;
 }
 
 @property --boxRotateAngle {
