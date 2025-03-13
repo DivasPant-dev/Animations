@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="dad-container">
+
+
+
+        <h1 class="head-title">
+            Animations
+        </h1>
+
+        <div class="video-dad">
+            <div class="video">
+                <video height="200px" id="video" controls loop>
+                    <source src="./video.mp4" type="video/mp4">
+                    *This video is not supported in your browser*                
+                </video>
+            </div>
+
+            <button class="btn-video" onclick="video()" id="video">
+                Play/Stop
+            </button>
+        </div>
+    
+        <div class="container">
+            <div class="box-rotate">
+                <p class="box-rotate-para"> 
+                    This is a Conic-gradient using ::before and ::after pseudo classes
+                </p>
+            </div>
+            
+            <div class="orange-rotate-dad-div">
+                <div class="orange-rotate">
+                    Suii
+                </div>
+            </div>
+
+            <div class="button-div">
+                <button class="btn-animation">
+                    Hover Me
+                </button>
+            </div>
+
+            <div class="green-conic">
+                This is same as first one but more difficult
+            </div>
+
+            <div class="button-dad-container">
+                <div class="showcase-button" id="showcase">
+                    Wassup
+                </div>
+
+                <div class="showcase-button-div">
+                    <button class="btnn-animations" onclick="moveUp()">
+                        Up
+                    </button>
+
+                    <button class="btnn-animations" onclick="moveDown()">
+                        Down
+                    </button>
+
+                    <button class="btnn-animations" onclick="moveRight()">
+                        Right
+                    </button>
+
+                    <button class="btnn-animations" onclick="moveLeft()">
+                        Left
+                    </button>
+                </div>
+            </div>
+
+            <div class="circle">
+                <button class="btn-circle" onclick="circle()">
+                    Click Me
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        This website is the creation of <a href="https://www.youtube.com/@divaspantnovid2780/" target="_blank">Divas Pant</a>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
